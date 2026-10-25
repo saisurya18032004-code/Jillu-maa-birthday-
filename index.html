@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#210d2b">
+<title>Happy Birthday, Jillu 💗</title>
+<style>
+:root{--pink:#ff83b8;--rose:#ff4f91;--cream:#fff4f7;--gold:#ffd98b}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--cream);font-family:Georgia,'Times New Roman',serif;background:#16091f;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(ellipse at 20% 10%,#672650 0,transparent 38%),radial-gradient(ellipse at 85% 70%,#42205d 0,transparent 40%),linear-gradient(145deg,#16091f,#2a1034 55%,#120819)}
+.stars{position:fixed;inset:0;pointer-events:none;z-index:-1;background-image:radial-gradient(#fff 1px,transparent 1.5px),radial-gradient(#ffb7d7 1px,transparent 1.5px);background-size:83px 83px,127px 127px;background-position:0 0,32px 51px;opacity:.28}
+main{width:min(920px,92%);margin:auto}
+.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:48px 12px;position:relative}
+.eyebrow{letter-spacing:.32em;text-transform:uppercase;color:var(--gold);font:11px Arial,sans-serif}
+h1{font-size:clamp(3.1rem,11vw,7rem);line-height:.95;margin:24px 0 18px;font-weight:normal}
+h1 span{display:block;color:var(--pink);font-style:italic;text-shadow:0 0 35px #ff4f9144}
+.subtitle{font:clamp(14px,3.5vw,18px)/1.8 Arial,sans-serif;color:#f5dce8;max-width:540px;margin:0 auto 30px}
+button,.button{border:1px solid #ff9fc8;background:linear-gradient(135deg,#ff6da9,#b83378);color:white;border-radius:99px;padding:14px 23px;font: bold 13px Arial,sans-serif;letter-spacing:.04em;cursor:pointer;text-decoration:none;display:inline-block;box-shadow:0 8px 30px #ff4f9130;transition:transform .2s}
+button:hover,.button:hover{transform:translateY(-3px)}
+.scroll{position:absolute;bottom:24px;left:0;right:0;color:#d9b4c9;font:10px Arial,sans-serif;letter-spacing:.2em}
+section{padding:72px 0;text-align:center}
+.kicker{color:var(--gold);text-transform:uppercase;letter-spacing:.24em;font:10px Arial,sans-serif}
+h2{font-size:clamp(2rem,6vw,3.5rem);font-weight:normal;margin:15px 0 24px}
+h2 em{color:var(--pink)}
+.card{background:linear-gradient(145deg,#ffffff0e,#ffffff05);border:1px solid #ffb8d52c;border-radius:24px;padding:clamp(24px,6vw,48px);box-shadow:0 20px 70px #0002;backdrop-filter:blur(8px)}
+.letter{font:16px/2 Arial,sans-serif;color:#f8e7ef;text-align:left;max-width:650px;margin:auto;white-space:pre-line}
+.signature{color:var(--pink);font:italic 25px Georgia,serif;margin-top:26px;text-align:right}
+.heart{font-size:38px;filter:drop-shadow(0 0 18px #ff4f91);animation:pulse 1.5s infinite}
+@keyframes pulse{50%{transform:scale(1.15)}}
+.memory-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}
+.memory{min-height:150px;border:1px dashed #ff9fc866;border-radius:18px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;padding:14px;color:#f6c9dc;background:#ffffff06;font:12px Arial,sans-serif}
+.memory b{font-size:26px}
+.memory input{max-width:100%;font-size:11px}
+.photo-preview{width:100%;height:180px;object-fit:cover;border-radius:12px;display:none}
+.wish-box{max-width:560px;margin:0 auto}
+.wish-text{font:italic 22px/1.7 Georgia,serif;color:#ffe5ef;min-height:90px}
+footer{text-align:center;padding:45px 12px 60px;color:#cdaabd;font:12px/1.8 Arial,sans-serif}
+footer strong{color:var(--pink)}
+.floating{position:fixed;bottom:-40px;pointer-events:none;z-index:5;animation:floatUp linear forwards}
+@keyframes floatUp{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+#surprise{display:none;margin-top:25px;color:#ffe2ed;font:16px/1.8 Arial,sans-serif}
+@media(max-width:560px){.memory-grid{grid-template-columns:1fr}.memory{min-height:100px}.card{padding:24px 20px}section{padding:55px 0}}
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<main>
+  <header class="hero">
+    <div>
+      <div class="eyebrow">A little website, made with a lot of love</div>
+      <h1>Happy Birthday <span>Jillu 💗</span></h1>
+      <p class="subtitle">Today is all about you — your smile, your happiness, and all the beautiful little things that make you special.</p>
+      <button onclick="document.querySelector('#letter').scrollIntoView({behavior:'smooth'})">A little surprise for you ↓</button>
+    </div>
+    <div class="scroll">SCROLL DOWN, BIRTHDAY GIRL ✦</div>
+  </header>
+
+  <section id="letter">
+    <div class="kicker">From my heart to yours</div>
+    <h2>For my <em>Jillu</em></h2>
+    <div class="card">
+      <div class="heart">♡</div>
+      <div class="letter">Happiest Birthday, Jillu! 🎂💗
+
+You are one of those beautiful people who can make an ordinary day feel special just by being part of it. Your smile brings warmth, your words bring comfort, and the little moments we share mean more to me than I can explain.
+
+On your special day, I wish you endless happiness, good health, peaceful days, big dreams, and the courage to make every one of them come true. May life give you countless reasons to smile, and may this new chapter bring you everything your heart has been wishing for.
+
+Never forget how precious you are and how much your happiness matters. Keep shining in your own beautiful way, Jillu. Today and always, you deserve all the love and wonderful things life can offer.
+
+Happy Birthday once again, my Jillu. Make the sweetest memories today! 🎀✨</div>
+      <div class="signature">With all my love, always ♡</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="kicker">Little things, big feelings</div>
+    <h2>Our tiny corner of <em>memories</em></h2>
+    <p class="subtitle">You can add your favourite photos here before sharing this website with Jillu.</p>
+    <div class="memory-grid">
+      <label class="memory"><b>♡</b><span>Our favourite photo</span><input type="file" accept="image/*" onchange="showPhoto(this,'photo1')"><img id="photo1" class="photo-preview" alt="Favourite memory"></label>
+      <label class="memory"><b>✧</b><span>A smile I love</span><input type="file" accept="image/*" onchange="showPhoto(this,'photo2')"><img id="photo2" class="photo-preview" alt="A happy memory"></label>
+      <label class="memory"><b>🎀</b><span>A special moment</span><input type="file" accept="image/*" onchange="showPhoto(this,'photo3')"><img id="photo3" class="photo-preview" alt="A special moment"></label>
+    </div>
+    <p style="font:12px Arial,sans-serif;color:#d4b0c3;margin-top:14px">Photo previews are temporary in your browser. To include them for everyone, add the image files to the website folder and update the HTML.</p>
+  </section>
+
+  <section>
+    <div class="kicker">One more little surprise</div>
+    <h2>A birthday wish, <em>just for you</em></h2>
+    <div class="card wish-box">
+      <div class="wish-text" id="wish">May your year be as lovely as your heart, as bright as your smile, and filled with moments that make you say, “This is the life I dreamed of.” 💗</div>
+      <button onclick="openSurprise()">Open your surprise ✨</button>
+      <div id="surprise">🎉 Surprise, Jillu! 🎉<br>Sending you a thousand smiles, a million happy moments, and the warmest birthday wishes. Keep smiling, keep dreaming, and keep being wonderfully you! 💖<br><div style="font-size:34px;margin-top:12px">🎂 💐 🎁</div></div>
+    </div>
+  </section>
+</main>
+<footer>
+  Made especially for <strong>Jillu</strong> with love and little sparkles ✨<br>
+  <span>One day, one wish, a whole lot of love. Happy Birthday! 💗</span>
+</footer>
+<script>
+function floatHeart(){
+  const el=document.createElement('div');el.className='floating';
+  const symbols=['♡','♥','✦','✨','💗'];el.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+  el.style.left=Math.random()*100+'vw';el.style.fontSize=(14+Math.random()*20)+'px';
+  el.style.color=['#ff83b8','#ffd98b','#ffd6e7'][Math.floor(Math.random()*3)];
+  const duration=5+Math.random()*5;el.style.animationDuration=duration+'s';document.body.appendChild(el);
+  setTimeout(()=>el.remove(),duration*1000);
+}
+setInterval(floatHeart,650);
+function openSurprise(){
+ document.getElementById('surprise').style.display='block';
+ for(let i=0;i<18;i++)setTimeout(floatHeart,i*70);
+}
+function showPhoto(input,id){
+ const img=document.getElementById(id);
+ if(input.files&&input.files[0]){img.src=URL.createObjectURL(input.files[0]);img.style.display='block';}
+}
+</script>
+</body>
+</html>
